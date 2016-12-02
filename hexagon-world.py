@@ -4,7 +4,7 @@ from map import Map
 
 @route('/')
 def home():
-    world = Map("Great Job", 2, 2)
+    world = Map("Great Job", 20, 20)
     return template('home', world=world)
 
 

@@ -8,6 +8,7 @@
 	%for tile in row:
 	<img src="/res/{{tile.background}}">
 	%end
+	<br>
 %end
 </body>
 </html>
