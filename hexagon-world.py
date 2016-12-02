@@ -4,7 +4,7 @@ from map import Map
 
 @route('/')
 def home():
-    world = Map("Great Job", 20, 20)
+    world = Map("Great Job", 4, 4)
     return template('home', world=world)
 
 
@@ -12,6 +12,9 @@ def home():
 def css(filename):
     return static_file(filename, root='css')
 
+@route('/js/<filename:path>')
+def css(filename):
+    return static_file(filename, root='js')
 
 @route('/res/<filename:path>')
 def css(filename):
