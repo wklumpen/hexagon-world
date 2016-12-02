@@ -1,3 +1,4 @@
+//http://www.mattpalmerlee.com/2012/04/10/creating-a-hex-grid-for-html5-games-in-javascript/
 var HT = HT || {};
 /**
  * A Point is simply x and y coordinates
