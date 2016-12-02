@@ -1,3 +1,4 @@
 .hexgrid {
-	background: red;
+	overflow-x: scroll;
+    white-space: nowrap;
 }
