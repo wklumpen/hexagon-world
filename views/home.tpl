@@ -6,12 +6,15 @@
 <body>
 <h1>Map of {{world.title}}</h1>
 <div class="hexGrid">
-%for row in world.tiles:
-	%for tile in row:
+<%
+for row in world.tiles:
+	for tile in row:
+%>
+
 	<img src="/res/{{tile.background}}">
-	%end
+	<%end%>
 	<br>
-%end
+<%end%>
 </div>
 </body>
 </html>
